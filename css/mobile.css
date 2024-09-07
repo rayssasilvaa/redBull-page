@@ -1,0 +1,83 @@
+@media (max-width: 678px) {
+    header {
+        width: 100vw;
+
+        .icon {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            font-size: 12px;
+            margin: 2px 0 0 -21rem;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        #search,
+        #nav {
+            display: none;
+        }
+
+        #logo {
+            margin-right: 20px;
+
+            img {
+                width: 85px;
+            }
+        }
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+
+        #container {
+            margin-top: 9rem;
+            flex-direction: column;
+            background-color: white;
+
+            #btn {
+                display: none;
+            }
+
+            #title {
+                position: relative;
+                text-align: center;
+                margin: -25rem;
+                font-size: 56px;
+            }
+
+            #redbull {
+                display: block;
+                margin: 7.2rem 126px;
+                width: 132px;
+            }
+
+            #video-container {
+                position: absolute;
+                width: 100%;
+                margin: 35rem -0rem;
+
+                video {
+                    width: 440px;
+                }
+            }
+
+            #container_carrosel{
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+
+                #product{
+                    position: absolute;
+                    background-color: red;
+                    width: 40px;
+                    height: 40px;
+                    left: 60%;
+                    top: 40%;
+                }
+            }
+        }
+    }
+}

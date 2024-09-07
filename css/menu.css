@@ -1,0 +1,87 @@
+header {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    background-color: white;
+
+    & .icon {
+        width: 37px;
+        height: 37px;
+        background-color: transparent;
+        cursor: pointer;
+        border: 1px solid #c1c1c1;
+        border-radius: 100%;
+        align-self: flex-start;
+        font-size: 14px;
+        color: #171717;
+        margin: 5px 0 0 2px;
+    }
+
+    #search {
+        cursor: pointer;
+        position: absolute;
+        left: 113rem;
+        border: none;
+        font-size: 18px;
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        color: red;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: -15px 0;
+        font-size: 14px;
+
+        img {
+            width: 90px;
+        }
+    }
+
+
+    #nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px auto 0 27rem;
+        border: 1px solid #E6E8EA;
+        border-radius: 9999px;
+
+        button {
+            background-color: transparent;
+            padding: 10px;
+            border: 1px solid rgba(0, 0, 0, 0);
+            border-radius: 9999px;
+            font-size: 15.6px;
+            transition: all.4s;
+
+            a {
+                color: #292929d8;
+                font-weight: 600;
+                text-decoration: none;
+                padding: 10px;
+            }
+
+            #border-bottom {
+                border-bottom: 2px solid red;
+            }
+        }
+
+        button:hover {
+            background-color: #D9DCDE;
+        }
+
+    }
+
+    button#grid:hover {
+        background-color: #E5E7E8;
+        ;
+    }
+}
